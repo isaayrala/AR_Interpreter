@@ -1,0 +1,2 @@
+-- ACA VOY A IMPRIMIR LINDAS LAS TABLAS
+pp:: Table -> String
