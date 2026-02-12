@@ -1,0 +1,30 @@
+CREATE TABLE alumnos (
+    id INT,
+    nombre VARCHAR(50),
+    edad INT
+);
+
+INSERT INTO alumnos (id, nombre, edad)
+VALUES (1, 'Ana', 20);
+
+CREATE TABLE empleados (
+    dni INT,
+    nombre VARCHAR(50),
+    edad INT
+);
+
+INSERT INTO empleados (dni, nombre, edad)
+VALUES (2, 'Anabel', 10);
+
+SELECT (nombre ="Isabel") alumnos
+SELECT (nombre != "Isabel") alumnos
+SELECT (edad >= 10) alumnos
+SELECT (edad < 10) alumnos
+SELECT (edad <= 10) alumnos
+SELECT (edad > 10) alumnos
+PROYECT (nombre,edad) alumnos
+UNION empleados alumnos
+SUB empleados alumnos
+PROD empleados alumnos
+RENAME empleados alumnos
+
