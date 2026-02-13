@@ -1,3 +1,2 @@
-hacer lo monadico de eval 
-hacer el pretty printer
-main
+pasar todo lo de tableops a eval
+hacer q se puedan subir tablas
